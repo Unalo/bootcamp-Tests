@@ -11,6 +11,6 @@ switch(Shifts) {
      return "free";
      break;
   default:
-    return "free";
+    return "not a shift";
           }
 }
