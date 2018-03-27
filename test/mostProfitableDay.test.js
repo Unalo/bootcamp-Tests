@@ -1,7 +1,7 @@
-describe('The mostProfitableDepartment function' , function(){
+describe('The mostProfitableDay function' , function(){
 
     it('should take in a data list and return the most profitable department ' , function(){
-      assert.equal(mostProfitableDepartment(
+      assert.equal(mostProfitableDay(
         [
 {department : 'hardware', sales : 4500, day : 'Monday'},
 {department : 'outdoor', sales : 1500, day : 'Monday'},
@@ -19,6 +19,6 @@ describe('The mostProfitableDepartment function' , function(){
 {department : 'outdoor', sales : 12006, day : 'Friday'},
 {department : 'carpentry', sales : 16109, day : 'Friday'}
 ]
-),'outdoor');
+),'Thursday');
     });
 });

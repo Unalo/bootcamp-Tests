@@ -5,4 +5,7 @@ describe('The yearsAgo function' , function(){
     it('5 years ago' , function(){
       assert.equal(5,yearsAgo('2013'));
     });
+    it('should not take words' , function(){
+      assert.notEqual('Siyanda',30,'not a number');
+    });
 });
