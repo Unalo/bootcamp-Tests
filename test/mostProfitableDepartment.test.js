@@ -21,4 +21,4 @@ describe('The mostProfitableDepartment function' , function(){
 ]
 ),'outdoor');
     });
-});
+  });
