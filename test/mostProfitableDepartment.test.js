@@ -21,4 +21,18 @@ describe('The mostProfitableDepartment function' , function(){
 ]
 ),'outdoor');
     });
+    it('should take in a data list and return carpentry as the most profitable department ' , function(){
+      assert.equal(mostProfitableDepartment(
+        [
+{department : 'hardware', sales : 500, day : 'Monday'},
+{department : 'outdoor', sales : 500, day : 'Monday'},
+{department : 'carpentry', sales : 5500, day : 'Monday'},
+{department : 'hardware', sales : 500, day : 'Tuesday'},
+{department : 'outdoor', sales : 505, day : 'Tuesday'},
+{department : 'carpentry', sales : 540, day : 'Tuesday'},
+{department : 'hardware', sales : 500, day : 'Wednesday'},
+{department : 'outdoor', sales : 507, day : 'Wednesday'},
+]
+),'carpentry');
+    });
   });

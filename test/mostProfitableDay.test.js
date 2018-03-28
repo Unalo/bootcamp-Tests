@@ -21,4 +21,5 @@ describe('The mostProfitableDay function' , function(){
 ]
 ),'Thursday');
     });
+    
 });

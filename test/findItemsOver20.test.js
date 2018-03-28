@@ -16,6 +16,7 @@ describe('The findItemsOver20 function' , function(){
           {name : 'apples', qty : 10},
           {name : 'pears', qty : 3},
           {name : 'bananas', qty : 7},
+          {name : 'lemons', qty : 4},
           {name : 'apples', qty : 3}
         ]
 
@@ -23,6 +24,7 @@ describe('The findItemsOver20 function' , function(){
         [
           {name : 'apples', qty : 10},
           {name : 'pears', qty : 37},
+          {name : 'lemons', qty : 4},
           {name : 'bananas', qty : 27},
           {name : 'apples', qty : 3}
         ]
