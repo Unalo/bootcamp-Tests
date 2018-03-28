@@ -1,6 +1,6 @@
 describe('The mostProfitableDay function' , function(){
 
-    it('should take in a data list and return the most profitable department ' , function(){
+    it('should take in a data list and return the most profitable Day ' , function(){
       assert.equal(mostProfitableDay(
         [
 {department : 'hardware', sales : 4500, day : 'Monday'},
@@ -21,5 +21,5 @@ describe('The mostProfitableDay function' , function(){
 ]
 ),'Thursday');
     });
-    
+
 });
