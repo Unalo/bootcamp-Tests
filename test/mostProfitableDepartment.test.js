@@ -31,7 +31,7 @@ describe('The mostProfitableDepartment function' , function(){
 {department : 'outdoor', sales : 505, day : 'Tuesday'},
 {department : 'carpentry', sales : 540, day : 'Tuesday'},
 {department : 'hardware', sales : 500, day : 'Wednesday'},
-{department : 'outdoor', sales : 507, day : 'Wednesday'},
+{department : 'outdoor', sales : 507, day : 'Wednesday'}
 ]
 ),'carpentry');
     });
